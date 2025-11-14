@@ -3,7 +3,6 @@
 # ---------------------------------------------------
 
 # Ignore transient and device-specific state
-.obsidian/app.json
 .obsidian/graph.json
 .obsidian/workspace.json
 .obsidian/appearance.json
@@ -13,6 +12,7 @@
 # ---------------------------------------------------
 
 # Include only meaningful settings
+!.obsidian/app.json
 !.obsidian/themes/
 !.obsidian/snippets/
 !.obsidian/hotkeys.json
