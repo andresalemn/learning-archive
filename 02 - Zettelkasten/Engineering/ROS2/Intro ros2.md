@@ -1,52 +1,24 @@
 ---
 title: Intro ros2
 created: 14-11-2025 16:19
-domain: "[[ros2]]"
+domain: "[[ROS2]]"
 type: tool
 tags:
   - ros2
-source_note: "[[ros2]]"
+source_note: "[[ROS2]]"
 ---
 # ⚙️ Intro ros2
 
-> **A concise, 1-2 sentence explanation of the concept in my own words.** This is for quick recall.
+ROS2 is a framework (middleware) that helps different parts of a robot communicate with each other. It provides tools, message types, and a communication system so sensors, motors, and algorithms can work together.  
 
-## ❓ Why is this important? (The Context)
-
-*   What problem does this tool/concept/function solve?
-*   Where is it most often used in my projects (ROS2, C++ applications, etc.)?
-
-## 🧠 My Synthesized Understanding (The Core Explanation)
-
-*This section is your own, robust explanation, broken down into clear headers. Use simple language and strong analogies.*
-
-### How it Works / Core Mechanism
-
-*   *Analogy:* Think of it like a train-switch in a rail yard...
-*   *Key steps:* 
-    1.  ...
-    2.  ...
-
-### Examples (To Cement Understanding)
-
-*   Link to a code block in a dedicated examples file: 
-*   Link to a note detailing a relevant project: 
-
-## 🔗 Official & External Resources
-
-*   **Official Docs Link Note:** `[[{{tool_name}} Documentation Links]]`
-*   **Deep Dive:** [Article/Paper for advanced reading](https://example.com)
-
----
-%% REMINDER: This note must only contain synthesized understanding. Official documentation is stored in the 04-Resources/ link note above. %%
-
-**Conceptos asociados a ROS2**
+## 🧠 Basic concepts related to ROS2
 
 - **Espacio de trabajo:** Es simplemente un directorio con una estructura particular. Permite a los desarrolladores agrupar, construir y gestionar paquetes de software de manera eficiente.
   - Suele estar vacío al inicio de un proyecto, a excepción de src.
   - Normalmente contienen un subdirectorio fuente (src).
 - **Colcon:** Es una herramienta que permite realizar construcciones fuera del directorio de origen, mejorando la organización y facilitando la gestión de las dependencias y los paquetes.
   - Al construir con Colcon, se crean subdirectorios al mismo nivel que src.
+  - [Using `colcon` to build packages](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html#using-colcon-to-build-packages "Link to this heading")
 
 **Subdirectorios de un Workspace con Colcon**
 - **src (source):** Ubicación del código fuente de los paquetes de ROS.
@@ -54,18 +26,29 @@ source_note: "[[ros2]]"
 - **install:** El directorio de instalación es donde se instalará cada paquete. Por defecto, cada paquete se instalará en un subdirectorio separado.
 - **log:** El directorio log contiene información sobre cada invocación de Colcon o información de registro.
 ![[ros2_ws structure.png|398x200]]
+
 - **Instrucciones dentro de install**
-  - local_setup.bash ---\> It will source that workspace, which we can call an overlay.
-  - setup.bash -----------\> It will source this workspace, here, plus the underlay workspace, which is the global. En el curso se utilizará más esta segunda instrucción.
+  - `local_setup.bash` ---\> It will source that workspace, which we can call an overlay.
+  - `setup.bash` -----------\> It will source this workspace, here, plus the underlay workspace, which is the global. En el curso se utilizará más esta segunda instrucción.
 
 - **Paquetes:** Ayudan a separar el código en bloque reutilizables
 - Paquetes de Python
-  - setup.cfg ---\> Indica en cuál (¿dónde?) dirección se instalarán los nodos.
-  - setup.py ----\> Los nodos o scripts que se instalarán.
+  - `setup.cfg` ---\> Indica en cuál (¿dónde?) dirección se instalarán los nodos.
+  - `setup.py` ----\> Los nodos o scripts que se instalarán.
 - Paquetes de C++
+
+![[ros2arch2.png|400x342]]
 
 - **Librerías de ROS2**
   - **DDS** (Data Distribution Service). It handles all the communications in the applications. It's basically the lowest ROS2 client library you can use. Bridge to the ROS2 middleware. We don't use it directly.
   - **RCL** (ROS Client Library): Librería pura en C. Contains all the core functionalities.
   - **rclcpp:** Provides a binding for RCL functionalities into C++.
   - **rclpy:** Provides a binding for RCL functionalities into Python.
+
+![[ros2arch1.png|444x250]]
+
+## 🔗 Official & External Resources
+
+*   **Official Docs Link Note:** [[ROS2 Documentation Links]]
+
+---

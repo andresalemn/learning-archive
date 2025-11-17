@@ -9,6 +9,7 @@
 | [[T - Atomic Note]]         | The core Zettel for any single idea/concept.      | Links to Indexes.                      |
 | [[T - Engineering Concept]] | For deep technical synthesis.                     | Links to Official Docs (04-Resources). |
 | [[T - Map of Content]]      | To create indexes                                 | Indexes or notes                       |
+| [[T - Documentation]]       | To create documentation domains                   | Documentation domains                  |
 | [[]]                        | For notes on novels, non-fiction books, or media. | Links to broader themes.               |
 ## 03-Action-Hub Templates (Application & Doing)
 
