@@ -16,9 +16,8 @@ parent_index: "[[Documentation Index]]"
 ### 1. Primary Source
 *   **Main Landing Page/Standard:** [ROS2 Humble Documentation](https://docs.ros.org/en/humble/index.html)
 
-### 2. Key References
-*   **C++ Reference (cppreference):** [https://en.cppreference.com/w/](https://en.cppreference.com/w/)
-*   **Standard Template Library (STL) Docs:** [https://www.cplusplus.com/reference/stl/](https://www.cplusplus.com/reference/stl/)
+### 2. Quick Links
+*   **Reference for Basic Concepts :** [Basic Concepts in ROS2](https://docs.ros.org/en/humble/Concepts/Basic.html)
 
 ## 📘 Essential Tutorials & Guides
 
