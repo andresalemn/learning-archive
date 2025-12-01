@@ -1,8 +1,9 @@
 ---
 title: Engineering Index Map Of Content
 created: 17-11-2025 15:55
-domain:
+domain: engineering
 tags:
+  - engineering
 parent moc: "[[Master Index]]"
 ---
 
