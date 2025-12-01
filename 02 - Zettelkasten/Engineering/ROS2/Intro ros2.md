@@ -7,7 +7,7 @@ tags:
   - ros2
 source_note: "[[ROS2]]"
 ---
-# ⚙️ Intro ros2
+	# ⚙️ Intro ros2
 
 ROS2 is a framework (middleware) that helps different parts of a robot communicate with each other. It provides tools, message types, and a communication system so sensors, motors, and algorithms can work together.  
 
@@ -49,6 +49,6 @@ ROS2 is a framework (middleware) that helps different parts of a robot communica
 
 ## 🔗 Official & External Resources
 
-*   **Official Docs Link Note:** [[ROS2 Documentation Links]]
+*   **Official Docs Link :** [Basic Concepts in ROS2](https://docs.ros.org/en/humble/Concepts/Basic.html)
 
 ---
