@@ -22,11 +22,15 @@ parent moc: "[[Engineering Index]]"
 ## 🧱 The Core Concepts (The Fundamentals)
 
 *These are the most basic and essential concepts. Link directly to the Atomic Notes in 02-Knowledge-Base/.*
-### 1. Environment Related Topics
+
+### 1. C++ Related Notes
+*   [[Programming Languages]]
+* 
+### 2. Environment Related Topics
 *   [[CMakeLists file]]
 *   [[]]
 
-### 2. Topic
+### 3. Topic
 *   [[]]
 
 ## 🏛 The Advanced Structures (Next Level)
@@ -34,7 +38,7 @@ parent moc: "[[Engineering Index]]"
 *Link to the intermediate/advanced concepts or procedures.*
 
 ### 3. Topic
-*   [[]] **<-- Link to another, lower-level MOC if the topic is huge!**
+*   [[]] 
 *   [[]]
 
 ### 4. Topic

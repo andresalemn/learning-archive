@@ -23,9 +23,9 @@ parent moc: "[[Engineering Index]]"
 ## 🧱 The Core Concepts (The Fundamentals)
 
 *These are the most basic and essential concepts. 
-### 1. Topic
-*   [[]]
-*   [[]]
+### 1. Introductory Notes
+*   [[Linux Commands]]
+*   [[Linux File System]]
 
 ### 2. Topic
 *   [[]]
