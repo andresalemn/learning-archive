@@ -9,26 +9,43 @@ source: "[[]]"
 
 # 💡 ELEGOO IR Remote Control Keys
 
-| Key          | Small decimal ID |
-| ------------ | ---------------: |
-| POWER        |               93 |
-| FUNC/STOP    |               29 |
-| VOL+         |              157 |
-| FAST BACK    |              221 |
-| PAUSE        |              253 |
-| FAST FORWARD |               61 |
-| DOWN         |                3 |
-| VOL-         |               21 |
-| UP           |                9 |
-| EQ           |               25 |
-| ST/REPT      |               13 |
-| 0            |               22 |
-| 1            |               12 |
-| 2            |               24 |
-| 3            |              133 |
-| 4            |                8 |
-| 5            |              199 |
-| 6            |              165 |
-| 7            |               18 |
-| 8            |              181 |
-| 9            |               73 |
+<table>
+  <thead>
+    <tr>
+    <th style="text-align:center;">Key</th>
+    <th style="text-align:center;">Small decimal ID</th>
+    <th style="text-align:center;">Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>POWER</td>
+      <td style="text-align:right;">93</td>
+      <td rowspan="21" style="text-align:center; vertical-align:middle;">
+        <img src="ir_controller.png" width="206" height="437" alt="IR controller">
+      </td>
+    </tr>
+    <tr><td>FUNC/STOP</td><td style="text-align:right;">29</td></tr>
+    <tr><td>VOL+</td><td style="text-align:right;">157</td></tr>
+    <tr><td>FAST BACK</td><td style="text-align:right;">221</td></tr>
+    <tr><td>PAUSE</td><td style="text-align:right;">253</td></tr>
+    <tr><td>FAST FORWARD</td><td style="text-align:right;">61</td></tr>
+    <tr><td>DOWN</td><td style="text-align:right;">3</td></tr>
+    <tr><td>VOL-</td><td style="text-align:right;">21</td></tr>
+    <tr><td>UP</td><td style="text-align:right;">9</td></tr>
+    <tr><td>EQ</td><td style="text-align:right;">25</td></tr>
+    <tr><td>ST/REPT</td><td style="text-align:right;">13</td></tr>
+    <tr><td>0</td><td style="text-align:right;">22</td></tr>
+    <tr><td>1</td><td style="text-align:right;">12</td></tr>
+    <tr><td>2</td><td style="text-align:right;">24</td></tr>
+    <tr><td>3</td><td style="text-align:right;">133</td></tr>
+    <tr><td>4</td><td style="text-align:right;">8</td></tr>
+    <tr><td>5</td><td style="text-align:right;">199</td></tr>
+    <tr><td>6</td><td style="text-align:right;">165</td></tr>
+    <tr><td>7</td><td style="text-align:right;">18</td></tr>
+    <tr><td>8</td><td style="text-align:right;">181</td></tr>
+    <tr><td>9</td><td style="text-align:right;">73</td></tr>
+  </tbody>
+</table>
+
+---
