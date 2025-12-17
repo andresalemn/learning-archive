@@ -22,7 +22,7 @@ source: "[[]]"
       <td>POWER</td>
       <td style="text-align:right;">93</td>
       <td rowspan="21" style="text-align:center; vertical-align:middle;">
-        <img src="ir_controller.png" width="206" height="437" alt="IR controller">
+        <img src="https://raw.githubusercontent.com/andresalemn/learning-archive/refs/heads/main/00%20-%20Vault%20Utilities/Attachments/ir_controller.png?token=GHSAT0AAAAAAC7X4EPDP7LNCAL6WZFQ4VK22KC4ZEQ" width="206" height="437" alt="IR controller">
       </td>
     </tr>
     <tr><td>FUNC/STOP</td><td style="text-align:right;">29</td></tr>
