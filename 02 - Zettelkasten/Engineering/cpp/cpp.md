@@ -33,7 +33,7 @@ parent moc: "[[Engineering Index]]"
 ### 3. Libraries
 *   [[Standard library]]
 
-## 🏛 The Advanced Structures (Next Level)
+## 🏛 The Advanced Structures (Loading)
 
 *Link to the intermediate/advanced concepts or procedures.*
 
