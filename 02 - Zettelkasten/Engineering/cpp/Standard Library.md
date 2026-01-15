@@ -1,8 +1,8 @@
 ---
-title: Standard library
+title: Standard Library
 created: 22-12-2025 10:09
 domain: cpp
-type: tool
+type: library
 tags:
   - cpp
   - engineering
@@ -10,7 +10,7 @@ source_note: "[[cpp]]"
 Links to your resource note related:
 ---
 
-# ⚙️ Standard library
+# ⚙️ Standard Library
 
 > The **C++ Standard Library** is a core part of the C++ language specification that provides reusable facilities across a wide range of programming needs in C++. 
 
@@ -47,7 +47,7 @@ The library is organized into conceptual groups:
 - **Time Library**  
     Time utilities (`<chrono>`). 
 - **Input/Output Library**  
-    Streams (`iostream`) and related functionality. 
+    Streams ([[iostream]]) and related functionality. 
 - **Thread Support Library** _(since C++11)_  
     Thread creation and management, atomics, mutexes. 
 - **Execution Support Library** _(since C++26)_  

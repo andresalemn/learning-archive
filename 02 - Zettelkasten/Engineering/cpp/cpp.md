@@ -31,7 +31,7 @@ parent moc: "[[Engineering Index]]"
 *   [[]]
 
 ### 3. Libraries
-*   [[Standard library]]
+*   [[Standard Library]]
 
 ## 🏛 The Advanced Structures (Loading)
 
