@@ -11,7 +11,7 @@ Links to your resource note related:
 ---
 # ⚙️  `iostream` in C++
 
-The `<iostream>` header is used for **input and output** in C++. It works using **streams**.
+> The `<iostream>` header is used for **input and output** in C++. It works using **streams**.
 
 ---
 ## What Is a Stream?

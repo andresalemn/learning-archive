@@ -9,7 +9,6 @@ tags:
 source_note: "[[cpp]]"
 Links to your resource note related:
 ---
-
 # ⚙️ Standard Library
 
 > The **C++ Standard Library** is a core part of the C++ language specification that provides reusable facilities across a wide range of programming needs in C++. 
