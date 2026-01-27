@@ -54,3 +54,53 @@ Links to your resource note related:
 	* Dado a uno de esos casos, que opción voy a tomar. Dado el estado que accion voy a ejecutar.
 
 ---
+## 🎯 Goal of Motion Planning
+
+* Compute **motion strategies**
+	* geometric paths
+	* time-parameterized trajectories
+	* sequence of sensor-based motion commands
+* To achieve **high-level goals**:
+	* go to A without colliding with obstacles
+	* assemble product P
+	* build map of environment E
+	* find object O
+
+## 🤖 Basic Motion Planning Problem
+
+> Compute a **collision-free path** for a rigid or articulated object among static obstacles.
+
+* Inputs:
+	* Geometry of moving object and obstacles.
+	* Kinematics of moving object (degrees of freedom)
+	* Initial and goal **configurations** (placements)
+* Outputs:
+	* Continuous sequence of collision-free robot configurations connecting the initial and goal configurations.
+
+### ➕ Extensions of Basic Problem
+
+|                                                                                                             |                                                                       |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Moving obstacles                                                                                            | Optimal planning                                                      |
+| Multiple robots                                                                                             | Uncertainty in model, control and sensing                             |
+| Movable objects                                                                                             | Exploiting task mechanics (sensorless motions, underactuated systems) |
+| Assembly planning                                                                                           | Physical models and deformable objects                                |
+| Goal is to acquire information by sensing:<br>- Model building<br>- Object finding/tracking<br>- Inspection | Integration of planning and control                                   |
+| Nonholonomic constraints                                                                                    | Integration with higher-level planning                                |
+| Dynamic constraints                                                                                         | Stability constraints                                                 |
+
+### 🔎 Applications
+
+- Lunar vehicle (Athlete, NASA/JPL)
+- Dexterous Manipulation
+- Manipulation of Deformable Objects
+- Animation of Crowds
+- Radiosurgical Planning
+- Building Code Verification
+- Egress Simulations
+- Transportation of A380 Fuselage trough Small Villages
+
+Gradiente. Vector con magnitud y orientación
+
+
+ 
