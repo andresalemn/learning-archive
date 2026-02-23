@@ -39,8 +39,7 @@ flowchart TD
 * 2. Cell decomposition
 	* Decompose the free space into simple cells and represent the connectivity of the free space by the adjacency graph of these cells 
 * 3. Potential field
-	* Define a function over the free space that has a global minimum at the goal configuration and follow its steepest descent
-
+	* Define a function over the free space that has a global minimum at the goal configuration and follow its steepest descent.
 
 ## 🔗 Official & External Resources
 
