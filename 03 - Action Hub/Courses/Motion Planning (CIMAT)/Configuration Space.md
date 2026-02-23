@@ -1,11 +1,13 @@
 ---
 title: Configuration Space
 created: 03-02-2026 10:19
-domain:
-type: 
+domain: robotics
+type: note
 tags:
+  - engineering
+  - robotics
 source_note:
-Links to your resource note related: 
+Links to your resource note related:
 ---
 # ⚙️ Configuration Space
 
