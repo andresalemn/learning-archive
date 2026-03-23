@@ -1,0 +1,25 @@
+
+-  Is there a place for mathematicians (model-based approaches) in robotics nowadays?
+- Data-Driven vs Model-Based and the spectrum
+- Advantages of model-based methods
+	- Models admit provable performance guarantees
+	- Reasonable models with closed-loop control often give good performance
+	- Offer optimization roadmaps
+- Examples
+	- Bat robot
+	- Flexible soft robot
+	- A cable driven graffiti robot
+	- Safe human robot interaction
+- Topological and Geometrical Data isn't enough, data-driven approaches not always are enough. Some kinds of data aren't available sometimes.
+- Data collection is expensive and time consuming for some cases.
+- Good models admit optimization-based solutions
+	- Kinematic design
+	- Geometric trajectory optimization
+	- Dynamics-based trajectory optimization
+	- Optimal LQR gains for linearized Poincare map
+- Closed-loop control delivers good performance, even when models are simplified
+- There are systems pretty complicated to simulate
+- Reasonable models + Feedback Control = Pretty good performance
+- Factor graphs
+- When good model exist, exploit them
+- When data-driven ML solves a problem, use the solution
