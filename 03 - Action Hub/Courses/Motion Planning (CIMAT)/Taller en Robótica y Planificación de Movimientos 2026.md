@@ -6,7 +6,7 @@
 
 
 ## Control de la deformación mediante sistemas robóticos
-MIguel Aranda
+Miguel Aranda
 
 - Control de forma usando modelos geométricos de deformación 
 - Control de forma para objetos con deformación isométrica
@@ -63,3 +63,102 @@ Diego Mercado, CINVESTAV GDL
 
 - DDR robot
 - Gap Navigation Tree
+
+## Reconstrucción 4D con redes neuronales
+**Edgar Sucar***, U. of Oxford
+
+- Spatial AI
+- Develop a method to get 3D dynamic reconstruction (4D) from any YouTube video.
+- Dynamic Point Maps
+- DUSt3R
+
+## Causal reinforcement learning and its application to robotics
+**Enrique Sucar**, INAOE
+
+- Causal graphical models
+	- Causal Bayesian Networks(CBN)	
+	- Markov's Equivalence Class
+- Causal models and reinforcement learning
+	- An agent could learn a policy and a causal model at the same time.
+	- By using a Causal Model(s)
+
+## Un juego de vigilancia entre un robot de tracción diferencial y un perseguidor aéreo
+**Ubaldo Ruiz**, CICESE
+
+- Cops and robbers game
+- Lion and man game
+- Homicidal Chauffeur problem
+	- Differential Games. Rufus Isaacs.
+
+## Control de formaciones de múltiples agentes basado en orientaciones
+**Frida López y Julio Rodríguez**, estudiantes de doctorado, CINVESTAV-Gdl
+
+- Multi-agent systems (MAS)
+	- Robustness
+	- Scalability
+	- Heterogenecity
+	- Cost efficiency
+- Bearing-only formation control
+	- Bearing (Vectores de orientación unitarios)
+	- Ensure a group of agents maintains a desired geometric pattern.
+- Oriented graph
+
+##  Research trends in automotive industry
+ **Cesar Magaña**, Aumovio
+- Aumovio
+- EP-Diffuser. An Efficient Diffusion Model for Traffic Scene Generation and Prediction via Polynomial Representation
+- Setup
+	- Train on Argoverse
+	- Test on Waymo
+- Current problems of interest
+	- Neural Network Quantization
+	- Sensor Data Fusion
+	- Safe AI for Automated Driving
+	- Autonomous Driving (KI Wissen)
+	- Explainability for  validation of AI applications (AIDE-X)
+	- Ethical and Responsible AI. _Ethical and Trustworthy Artificial and Machine Intelligence_ (etami).
+	- FALCON Project - Image Captioning/Scene Graph Generation
+	- Automated Sensor Calibration
+	- LiDAR Object Detection
+	- Training and Evaluation
+	- Intelligent Infrastructure
+
+##  Swarm-SLAM: cien agentes, un modelo emergente, cero mapas prefabricados
+**Carlos Lara**, CIMAT
+
+- Evolución del problema del SLAM
+	- EFK-SLAM (1985)
+	- Mapas de ocupación de celdillas (1990)
+	- EKF-SLAM (1991-1995) Matemáticamente sólido
+- NERF (Neural Radiance Fields)
+	- Generar vistas nuevas de una escena a partir de un conjunto limitado de imágenes.
+- BARF (Bundle-Adjusting Neural Radiance Fields)
+	- Extensión de NeRF, que permite reconstruir
+- Swarm SLAM
+	- Mandar varios drones requiere ancho de banda amplio, los errores se van generando y hay falta de consenso. 
+- MNE SLAM
+	- En lugar de intercambiar fotos, los drones solo comparten pequeñas "redes cerebro" que resumen lo que ham visto. 
+	- MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots
+- Ultra-Lightweight C-SLAM
+	- Lograr localización y mapeo precisos de un entorno desconocido con NANO drones.
+	- Restricciones de hardware (memoria y capacidad de cálculo)
+- Retos para Swarm SLAM
+	1. Pequeños errores de pose causan grandes inconsistencias fotométricas
+	2. Saturan la red Wi-Fi con solo 3 robots
+	3. Consenso sobre la estructura del mapa sin sincronización ni servidor central
+	4. En enjambres heterogéneos
+	5. Robustez ante fallos
+	6. Falta de validación en enjambres grandes
+- Aprendizaje de recompensas basado en LLMs
+	- Entornos condicionados por lenguaje
+	- Entornos basados en texto
+- MARL para tareas de Largo Horizonte en Equipos de Robots Heterogéneos
+
+## Beyond geometric patterns: The evolution of coverage path planning in the machine learning era
+ **Irving Vasquez**, IPN
+
+- Coverage path planning. Addressed as region filling problem
+	- NP-Hard problem complexity
+- The Boustrophedon path
+	- Simplifies the planning
+	- Both convex and non convex regions

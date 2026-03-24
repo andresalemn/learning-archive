@@ -22,4 +22,8 @@
 
 ## Procesos de decisión de Markov
 
+- Ejemplo: Lago Congelado
+
 ## Método del gradiente de la política
+
+- Monte-Carlo Policy-Gradient Control (episodic) for $\pi$
