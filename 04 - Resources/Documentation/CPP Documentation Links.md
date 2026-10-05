@@ -15,7 +15,7 @@ parent_index: "[[Documentation Index]]"
 *   **Main Landing Page/Standard:** [C++ Official ISO Standard Site](https://isocpp.org/)
 
 ### 2. Key References
-*   **The Best Technical Documentation:** [cppreference](https://en.cppreference.com/index.html)
+*   **The Best Technical Documentation:** [cppreference](https://en.cppreference.com)
 *   **Alternative Docs Site:** [cplusplus reference](https://cplusplus.com/reference/)
 * **Geeks For Geeks Learning Portal:** [C++ Programming Language](https://www.geeksforgeeks.org/cpp/c-plus-plus/)
 
